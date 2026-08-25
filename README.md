@@ -146,3 +146,8 @@ Brand colors already reflect the official Warkfin Tech palette:
 - Do not add server-side PHP or database logic for GitHub Pages deployment.
 - The React, Vite, Python, and local-server helper files are non-deployment development files; GitHub Pages serves the static HTML, CSS, JavaScript, and image assets from the repository root.
 
+
+## Business Contact
+- Phone / WhatsApp: +234 816 601 7588
+- WhatsApp: https://wa.me/2348166017588
+- Email: warkfin003@gmail.com

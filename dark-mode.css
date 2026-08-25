@@ -616,3 +616,12 @@ body.dark-mode .social-links a.social-icon:hover {
 body.dark-mode .section-kicker { color: #FB923C !important; }
 body.dark-mode .hero::after { opacity: .035; }
 body.dark-mode .feedback-note { color: #CBD5E1 !important; }
+
+
+/* Final dark-mode contact and mobile-navigation visibility */
+body.dark-mode .contact-info-item p a { color: #F8FAFC !important; }
+body.dark-mode .contact-info-item p a:hover { color: #93C5FD !important; }
+body.dark-mode .navbar-toggler { background: #0F172A !important; border-color: #60A5FA !important; }
+body.dark-mode .navbar-toggler-icon { border-top-color: #F8FAFC !important; border-bottom-color: #F8FAFC !important; filter: none !important; }
+body.dark-mode .navbar-toggler-icon::after { border-top-color: #F8FAFC !important; }
+@media (max-width: 991.98px) { body.dark-mode .navbar-collapse { background: #0F172A !important; border: 1px solid #334155; } body.dark-mode .navbar-collapse .nav-link { color: #F8FAFC !important; } }

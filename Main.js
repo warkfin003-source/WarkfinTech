@@ -121,3 +121,19 @@ window.addEventListener('scroll', function() {
     hide();
   }
 })();
+
+// Global WhatsApp contact shortcut.
+document.addEventListener('DOMContentLoaded', () => {
+  if (!document.getElementById('warkfinWhatsAppFloat')) {
+    const wa = document.createElement('a');
+    wa.id = 'warkfinWhatsAppFloat';
+    wa.className = 'whatsapp-float';
+    wa.href = 'https://wa.me/2348166017588';
+    wa.target = '_blank';
+    wa.rel = 'noopener noreferrer';
+    wa.setAttribute('aria-label', 'Chat with Warkfin Tech on WhatsApp');
+    wa.title = 'Chat with us on WhatsApp';
+    wa.innerHTML = '<i class="fab fa-whatsapp" aria-hidden="true"></i>';
+    document.body.appendChild(wa);
+  }
+});
